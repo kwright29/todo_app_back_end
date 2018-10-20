@@ -7,16 +7,20 @@ class TodoController < ApplicationController
     def show #ouraction
         todo_id = params[:id]
         if todo_id == '1'
-            @todo_description = "clean room"
+            @todo_description = "Clean Room"
+            @todo_time = "1 hour"
         end
         if todo_id == '2'
-            @todo_description = "apush homework"
+            @todo_description = "Apush Homework"
+            @todo_time = "3 hours"
         end
         if todo_id == '3'
-            @todo_description = "sweep floor"
+            @todo_description = "Sweep Floor"
+            @todo_time = "30 mins"
         end
         if todo_id == '4'
-            @todo_description = "do laundry"
+            @todo_description = "Do Laundry"
+            @todo_time = "1 hour"
         end
     end
 end

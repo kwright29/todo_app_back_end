@@ -18,29 +18,35 @@ html {
     background-color: white;
 }
 h1 {
-  font-family: monospace;
-  color: purple;
+    font-family: monospace;
+    color: purple;
 }
 li {
-  background-color: pink;
-  color: white;
-  padding: 10px;
-  border: 3px solid;
-  border-color: magenta purple magenta purple;
-  margin: 10px;
-  max-width: 175px;
-  font-family: 'Dancing Script', cursive;
-  font-size: 20px;
+    background-color: pink;
+    color: white;
+    padding: 10px;
+    border: 3px solid;
+    border-color: magenta purple magenta purple;
+    margin: 10px;
+    max-width: 175px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
 }
 a {
-  font-family: monospace;
-  color: purple;
-  border: 5px dotted;
-  padding: 10px;
+    font-family: monospace;
+    color: purple;
+    border: 5px dotted;
+    padding: 10px;
 }
 
 .detlist {
     background-color: rgba(34, 234, 156, 0.8);
+    border: 5px dotted;
+    border-color: grey;
 }
 
+.headers {
+    font-size: 20px;
+    font-family: sans-serif;
+}
 /************/
