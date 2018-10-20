@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  */
+ /******Credits to https://codepen.io/saransh/pen/BKJun*****/
 html {
     background-color: white;
 }
@@ -37,3 +38,9 @@ a {
   border: 5px dotted;
   padding: 10px;
 }
+
+.detlist {
+    background-color: rgba(34, 234, 156, 0.8);
+}
+
+/************/

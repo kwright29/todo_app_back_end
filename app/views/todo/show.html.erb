@@ -1,0 +1,30 @@
+
+    <h1><%=@todo_description%></h1>
+    <h3> Todo #<%= params[:id] %></h3>
+    <h2>
+        <span class= "headers"></span>Item Name:</h2>
+        <input type="item name" placeholder="ex: do homework">
+    <h2>
+        <span class= "headers"></span>
+        Date:</h2>
+        <input type="date" placeholder="MM/DD/YYYY">
+    <h3><span class= "headers"></span>
+        Time Preference:</h3>
+        <input type="time" placeholder="ex: 4 pomordoros or 2hr & 30min">
+    <h4><span class= "headers"></span>
+        Category:</h4>
+        <ul> 
+            <li class="detlist"> <input type="checkbox">
+            Work</li>
+            <li class="detlist"> <input type="checkbox"> 
+            School</li>
+            <li class="detlist"> <input type="checkbox">
+            Recreational</li>
+            <li class="detlist"> <input type="checkbox">
+            Family</a></li>
+            <li class="detlist"> <input type="checkbox">
+            Share with... <input type="email" placeholder="peer's email"></li>
+        
+
+        </ul>
+    <a href="/todo/index">Previous</a>
