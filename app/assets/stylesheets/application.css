@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+html {
+    background-color: white;
+}
+h1 {
+  font-family: monospace;
+  color: purple;
+}
+li {
+  background-color: pink;
+  color: white;
+  padding: 10px;
+  border: 3px solid;
+  border-color: magenta purple magenta purple;
+  margin: 10px;
+  max-width: 175px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+}
+a {
+  font-family: monospace;
+  color: purple;
+  border: 5px dotted;
+  padding: 10px;
+}
