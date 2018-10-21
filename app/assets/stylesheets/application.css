@@ -15,7 +15,7 @@
  */
  /******Credits to https://codepen.io/saransh/pen/BKJun*****/
 html {
-    background-color: white;
+    background-color: rgb(233, 229, 229);
 }
 h1 {
     font-family: monospace;
@@ -32,13 +32,8 @@ li {
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
 }
-a {
-    font-family: monospace;
-    color: purple;
-    border: 5px dotted;
-    padding: 10px;
-}
 
+/*detlist is in new.html.erb*/
 .detlist {
     background-color: rgba(34, 234, 156, 0.8);
     border: 5px dotted;
@@ -49,4 +44,36 @@ a {
     font-size: 20px;
     font-family: sans-serif;
 }
+button {
+    font-family: monospace;
+    font-size: 25px;
+    margin: 50px 50px 50px 50px;
+    
+}
+/*new.html*/
+#new-todo-description {
+    color:pink;
+    font-family: inherit;
+    
+}
+#new-todo-due-date {
+     color:pink;
+    font-family: inherit;
+}
+#add-new-todo-button {
+     color:pink;
+    font-family: inherit;
+}
+
+.txtBox {
+  height: 3.7rem;
+  width: 17rem;
+  margin-left: 76px;
+  border-style: dotted;
+  border-radius: 5px;
+  color: white;
+  background-color: transparent;
+  font-size: large;
+}
+
 /************/
